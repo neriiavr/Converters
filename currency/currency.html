@@ -11,9 +11,29 @@
         <p> Euro to Dolar </p>
         <input type="eToDolar" id="eToDolar">
         <button onclick="eToDolar()"> Convert >> </button>
-        <p id ="dolarConverted"> 0 </p>
+        <p id ="eToDolarConverted"> 0 </p>
     </div>
 
+    <div>
+        <p> Dolar to Euro </p>
+        <input type="dToEuro" id="dToEuro">
+        <button onclick="dToEuro()"> Convert >> </button>
+        <p id ="dToEuroConverted"> 0 </p>
+    </div>
+    <div>
+        <input type="input" id="input">
+        <select id="from" >
+            <option value="EUR"> EURO </option>
+            <option value="USD"> USD </option>
+        </select>
+        <select id="to">
+            <option value="EUR"> EURO </option>
+            <option value="USD"> USD </option>
+        </select>
+       
+            <button onclick="convert()"> Convert >> </button>
+            <p id="selectedConverted"> 0 </p>
+    </div>
     <script src="./currency.js"></script>
 </body>
 </html>
