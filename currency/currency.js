@@ -39,3 +39,4 @@ function convert() {
         document.getElementById("selectedConverted").innerText = responseObject.result
     })
 }
+

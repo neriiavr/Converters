@@ -20,3 +20,12 @@ function kToStone() {
     document.getElementById("stoneConverted").innerText = resultStone
 }
 
+function kToPound() {
+    const inputsValue = document.getElementById("ktop").value
+    var resultPound = ""
+    resultPound = inputsValue * 2.204
+
+    console.log(inputsValue)
+
+    document.getElementById("poundConverted").innerText = resultPound 
+}
