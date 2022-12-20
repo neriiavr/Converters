@@ -29,3 +29,23 @@ function kToPound() {
 
     document.getElementById("poundConverted").innerText = resultPound 
 }
+
+function pToKilo() {
+    const inputsValue = document.getElementById("ptok").value
+    var resultPound = ""
+    resultKilogram = inputsValue / 2.2 
+    
+    console.log(inputsValue)
+
+    document.getElementById("kiloConverted").innerText = resultKilogram
+}
+
+function oToPounds() {
+    const inputsValue = document.getElementById("otop").value
+    var resultOToPounds = ""
+    resultOToPounds = inputsValue / 16
+    
+    console.log(inputsValue)
+
+    document.getElementById("oToPoundConverted").innerText = resultKilogram
+}
